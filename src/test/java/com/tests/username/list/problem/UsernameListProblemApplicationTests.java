@@ -23,7 +23,7 @@ import static org.mockito.Mockito.mock;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootTestApplicationTests {
+public class UsernameListProblemApplicationTests {
 
     public static final String USER_TEST = "userTest";
     public static final String RESTRICTED_TEST = "xxxTest";
@@ -112,7 +112,7 @@ public class SpringBootTestApplicationTests {
 
     @Test
     public void SpringBootTestApplicationMain() {
-        SpringBootTestApplication main = mock(SpringBootTestApplication.class);
+        UsernameListProblemApplication main = mock(UsernameListProblemApplication.class);
         main.main(new String[]{});
     }
 
